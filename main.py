@@ -12,4 +12,4 @@ while inp != ';':
     out = out + u"\033[1;32m" + inp
   out = out + u"\n\u001b[0m"
 print(out)
-input('Press any key to exit...')
+input('Press Enter key to exit...')
