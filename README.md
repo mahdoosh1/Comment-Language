@@ -3,6 +3,10 @@
 This is a language syntax that helps you to make your code easier to use.
 This syntax is a file next to code with exact same name as code
 
+# Python convertor Requirement:
+
+    pip install colorama
+
 # Syntax
 
 It's so simple and easy to learn.
