@@ -3,7 +3,9 @@
 This is a language syntax that helps you to make your code easier to use.
 This syntax is a file next to code with exact same name as code
 
-# Python convertor Requirement:
+# Python syntax colorer:
+
+main.py is a python file i coded that you can input your document as comment language and that will color it for you.
 
     pip install colorama
 
