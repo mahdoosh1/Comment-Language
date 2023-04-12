@@ -2,6 +2,7 @@
 
 This is a language syntax that helps you to make your code easier to use.
 This syntax is a file next to code with exact same name as code
+but instead of .py or .java or anything else, it should end with .cl
 
 # Python syntax colorer:
 
