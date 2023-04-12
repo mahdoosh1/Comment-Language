@@ -1,14 +1,7 @@
 from colorama import *
-
 init()
-out = ''
-inp = ''
-
-
 def rem(inp):
     return ' '.join(inp.split(' ')[1:])
-
-
 def col(inp):
     out = ''
     out2 = ''
@@ -20,14 +13,10 @@ def col(inp):
         out2 = out + Fore.MAGENTA + inp.split()[0] + Style.RESET_ALL + " " + rem(inp)
     elif inp.startswith('#'):
         out2 = out + Fore.YELLOW + inp.split()[0] + rem(inp)
-    elif inp.startswith('&tab '):
-        out2 = out + '    ' + rem(inp)
     elif inp != ';':
         out2 = out + inp
     out = out2 + "\n" + Style.RESET_ALL
     return out
-
-
 def rm(inp):
     inp = list(inp.split('    '))
     cnt = 0
@@ -37,14 +26,18 @@ def rm(inp):
     out = col(''.join(inp))
     out = cnt * '    ' + out
     return out
-
-
-while inp != ';':
-    inp = input("End code with semicolon(';')")
-    if inp != ';':
-        if inp.startswith('    '):
-            out = out + rm(inp)
-        else:
-            out = out + col(inp)
-print(out)
+def main(inp):
+    if inp.startswith('    '):
+        out = out + rm(inp)
+    else:
+        out = out + col(inp)
+    return out
+out = ''
+inp = ''
+dic = input('directory of the file: ')
+file = open(dic, 'r')
+for i in file:
+    o = i.split('\n')
+    print(main(o))
+file.close()
 input('Press Enter key to exit...')
