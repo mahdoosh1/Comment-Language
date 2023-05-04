@@ -71,8 +71,5 @@ line is a method to say that this do function represents a code in a specific li
 
 # Copyright claim
 
-this repository works under this licence and has Copyright claim:
-https://creativecommons.org/licenses/by/3.0/us/
-
-license in this repository:
-https://raw.githubusercontent.com/mahdiyadiilavi1/Comment-Language/main/LICENSE
+this repository works under [this](https://www.mozilla.org/en-US/MPL/2.0/) licence and has Copyright claim.
+[license](https://raw.githubusercontent.com/mahdiyadiilavi1/Comment-Language/main/LICENSE) in this repository:
