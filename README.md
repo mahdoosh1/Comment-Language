@@ -73,5 +73,6 @@ line is a method to say that this do function represents a code in a specific li
 
 this repository works under this licence and has Copyright claim:
 https://creativecommons.org/publicdomain/zero/1.0/
+
 license in this repository:
 https://raw.githubusercontent.com/mahdiyadiilavi1/Comment-Language/main/LICENSE
