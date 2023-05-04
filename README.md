@@ -50,7 +50,7 @@ end is a method to end the process or exit the code:
 
 var is a method to say that im storing a data and pnt is pointer like c and c++ :
 
-    var name of file as .file
+    var file as .file
     pntr for .file is *flpntr
 
 # comment
