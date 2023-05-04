@@ -68,3 +68,8 @@ line is a method to say that this do function represents a code in a specific li
 - ChatGPT
 - Discord
 - Python knowledge
+
+# Copyright claim
+
+this repository works under this lisence and has Copyright claim:
+https://creativecommons.org/publicdomain/zero/1.0/
