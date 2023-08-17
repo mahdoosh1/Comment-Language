@@ -24,7 +24,7 @@ Syntax uses are these:
 - do
 - free comment
 
-### **Notice! Everything after a method is a comment**
+### **Note! Everything is comment and used to understand a code better, and cannot be executed**
 
 # if, else, for, while
 
